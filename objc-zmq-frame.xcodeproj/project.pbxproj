@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2906C7DA165B1F7E000D43E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2906C7D9165B1F7E000D43E4 /* Cocoa.framework */; };
-		2906C7FD165B2001000D43E4 /* ZMQContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906C7F8165B2001000D43E4 /* ZMQContext.h */; };
+		2906C7FD165B2001000D43E4 /* ZMQContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906C7F8165B2001000D43E4 /* ZMQContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906C7FE165B2001000D43E4 /* ZMQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2906C7F9165B2001000D43E4 /* ZMQContext.m */; };
-		2906C7FF165B2001000D43E4 /* ZMQObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906C7FA165B2001000D43E4 /* ZMQObjC.h */; };
-		2906C800165B2001000D43E4 /* ZMQSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906C7FB165B2001000D43E4 /* ZMQSocket.h */; };
+		2906C7FF165B2001000D43E4 /* ZMQObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906C7FA165B2001000D43E4 /* ZMQObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906C800165B2001000D43E4 /* ZMQSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906C7FB165B2001000D43E4 /* ZMQSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906C801165B2001000D43E4 /* ZMQSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2906C7FC165B2001000D43E4 /* ZMQSocket.m */; };
 		2906CCB9165B23AF000D43E4 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB22165B23AF000D43E4 /* AUTHORS */; };
 		2906CCBA165B23AF000D43E4 /* autogen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB23165B23AF000D43E4 /* autogen.sh */; };
@@ -25,7 +25,7 @@
 		2906CCC3165B23AF000D43E4 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB35165B23AF000D43E4 /* Makefile.am */; };
 		2906CCC4165B23AF000D43E4 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB36165B23AF000D43E4 /* Makefile.in */; };
 		2906CCC5165B23AF000D43E4 /* msvc.sln in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB37165B23AF000D43E4 /* msvc.sln */; };
-		2906CCC6165B23AF000D43E4 /* platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CB38165B23AF000D43E4 /* platform.hpp */; };
+		2906CCC6165B23AF000D43E4 /* platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CB38165B23AF000D43E4 /* platform.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CCC9165B23AF000D43E4 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB3C165B23AF000D43E4 /* ChangeLog */; };
 		2906CCCA165B23AF000D43E4 /* compile in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB3E165B23AF000D43E4 /* compile */; };
 		2906CCCB165B23AF000D43E4 /* config.guess in Resources */ = {isa = PBXBuildFile; fileRef = 2906CB3F165B23AF000D43E4 /* config.guess */; };
@@ -132,10 +132,10 @@
 		2906CD39165B23B0000D43E4 /* zmq_version.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2906CBAE165B23AF000D43E4 /* zmq_version.txt */; };
 		2906CD3A165B23B0000D43E4 /* libpgm-5.1.118~dfsg.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 2906CBB1165B23AF000D43E4 /* libpgm-5.1.118~dfsg.tar.gz */; };
 		2906CD3E165B23B0000D43E4 /* xmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CBB6165B23AF000D43E4 /* xmlParser.cpp */; };
-		2906CD3F165B23B0000D43E4 /* xmlParser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBB7165B23AF000D43E4 /* xmlParser.hpp */; };
-		2906CD40165B23B0000D43E4 /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBB9165B23AF000D43E4 /* zmq.h */; };
-		2906CD41165B23B0000D43E4 /* zmq.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBBA165B23AF000D43E4 /* zmq.hpp */; };
-		2906CD42165B23B0000D43E4 /* zmq_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBBB165B23AF000D43E4 /* zmq_utils.h */; };
+		2906CD3F165B23B0000D43E4 /* xmlParser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBB7165B23AF000D43E4 /* xmlParser.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD40165B23B0000D43E4 /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBB9165B23AF000D43E4 /* zmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD41165B23B0000D43E4 /* zmq.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBBA165B23AF000D43E4 /* zmq.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD42165B23B0000D43E4 /* zmq_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2906CBBB165B23AF000D43E4 /* zmq_utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CD43165B23B0000D43E4 /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = 2906CBBC165B23AF000D43E4 /* INSTALL */; };
 		2906CD44165B23B0000D43E4 /* libtool in Resources */ = {isa = PBXBuildFile; fileRef = 2906CBBD165B23AF000D43E4 /* libtool */; };
 		2906CD45165B23B0000D43E4 /* MAINTAINERS in Resources */ = {isa = PBXBuildFile; fileRef = 2906CBBE165B23AF000D43E4 /* MAINTAINERS */; };
@@ -204,143 +204,143 @@
 		2906CD90165B23B0000D43E4 /* libzmq_la-zmq_engine.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC0D165B23AF000D43E4 /* libzmq_la-zmq_engine.Plo */; };
 		2906CD91165B23B0000D43E4 /* libzmq_la-zmq_init.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC0E165B23AF000D43E4 /* libzmq_la-zmq_init.Plo */; };
 		2906CD92165B23B0000D43E4 /* libzmq_la-zmq_listener.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC0F165B23AF000D43E4 /* libzmq_la-zmq_listener.Plo */; };
-		2906CD93165B23B0000D43E4 /* array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC10165B23AF000D43E4 /* array.hpp */; };
-		2906CD94165B23B0000D43E4 /* atomic_counter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC11165B23AF000D43E4 /* atomic_counter.hpp */; };
-		2906CD95165B23B0000D43E4 /* atomic_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC12165B23AF000D43E4 /* atomic_ptr.hpp */; };
-		2906CD96165B23B0000D43E4 /* blob.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC13165B23AF000D43E4 /* blob.hpp */; };
+		2906CD93165B23B0000D43E4 /* array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC10165B23AF000D43E4 /* array.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD94165B23B0000D43E4 /* atomic_counter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC11165B23AF000D43E4 /* atomic_counter.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD95165B23B0000D43E4 /* atomic_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC12165B23AF000D43E4 /* atomic_ptr.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD96165B23B0000D43E4 /* blob.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC13165B23AF000D43E4 /* blob.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CD97165B23B0000D43E4 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC14165B23AF000D43E4 /* clock.cpp */; };
-		2906CD98165B23B0000D43E4 /* clock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC15165B23AF000D43E4 /* clock.hpp */; };
+		2906CD98165B23B0000D43E4 /* clock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC15165B23AF000D43E4 /* clock.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CD99165B23B0000D43E4 /* command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC16165B23AF000D43E4 /* command.cpp */; };
-		2906CD9A165B23B0000D43E4 /* command.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC17165B23AF000D43E4 /* command.hpp */; };
-		2906CD9B165B23B0000D43E4 /* config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC18165B23AF000D43E4 /* config.hpp */; };
+		2906CD9A165B23B0000D43E4 /* command.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC17165B23AF000D43E4 /* command.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CD9B165B23B0000D43E4 /* config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC18165B23AF000D43E4 /* config.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CD9C165B23B0000D43E4 /* connect_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC19165B23AF000D43E4 /* connect_session.cpp */; };
-		2906CD9D165B23B0000D43E4 /* connect_session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC1A165B23AF000D43E4 /* connect_session.hpp */; };
+		2906CD9D165B23B0000D43E4 /* connect_session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC1A165B23AF000D43E4 /* connect_session.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CD9E165B23B0000D43E4 /* ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC1B165B23AF000D43E4 /* ctx.cpp */; };
-		2906CD9F165B23B0000D43E4 /* ctx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC1C165B23AF000D43E4 /* ctx.hpp */; };
+		2906CD9F165B23B0000D43E4 /* ctx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC1C165B23AF000D43E4 /* ctx.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDA0165B23B0000D43E4 /* decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC1D165B23AF000D43E4 /* decoder.cpp */; };
-		2906CDA1165B23B0000D43E4 /* decoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC1E165B23AF000D43E4 /* decoder.hpp */; };
+		2906CDA1165B23B0000D43E4 /* decoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC1E165B23AF000D43E4 /* decoder.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDA2165B23B0000D43E4 /* device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC1F165B23AF000D43E4 /* device.cpp */; };
-		2906CDA3165B23B0000D43E4 /* device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC20165B23AF000D43E4 /* device.hpp */; };
+		2906CDA3165B23B0000D43E4 /* device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC20165B23AF000D43E4 /* device.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDA4165B23B0000D43E4 /* devpoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC21165B23AF000D43E4 /* devpoll.cpp */; };
-		2906CDA5165B23B0000D43E4 /* devpoll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC22165B23AF000D43E4 /* devpoll.hpp */; };
+		2906CDA5165B23B0000D43E4 /* devpoll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC22165B23AF000D43E4 /* devpoll.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDA6165B23B0000D43E4 /* dist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC23165B23AF000D43E4 /* dist.cpp */; };
-		2906CDA7165B23B0000D43E4 /* dist.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC24165B23AF000D43E4 /* dist.hpp */; };
+		2906CDA7165B23B0000D43E4 /* dist.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC24165B23AF000D43E4 /* dist.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDA8165B23B0000D43E4 /* encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC25165B23AF000D43E4 /* encoder.cpp */; };
-		2906CDA9165B23B0000D43E4 /* encoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC26165B23AF000D43E4 /* encoder.hpp */; };
+		2906CDA9165B23B0000D43E4 /* encoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC26165B23AF000D43E4 /* encoder.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDAA165B23B0000D43E4 /* epoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC27165B23AF000D43E4 /* epoll.cpp */; };
-		2906CDAB165B23B0000D43E4 /* epoll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC28165B23AF000D43E4 /* epoll.hpp */; };
+		2906CDAB165B23B0000D43E4 /* epoll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC28165B23AF000D43E4 /* epoll.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDAC165B23B0000D43E4 /* err.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC29165B23AF000D43E4 /* err.cpp */; };
-		2906CDAD165B23B0000D43E4 /* err.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2A165B23AF000D43E4 /* err.hpp */; };
-		2906CDAE165B23B0000D43E4 /* fd.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2B165B23AF000D43E4 /* fd.hpp */; };
+		2906CDAD165B23B0000D43E4 /* err.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2A165B23AF000D43E4 /* err.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDAE165B23B0000D43E4 /* fd.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2B165B23AF000D43E4 /* fd.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDAF165B23B0000D43E4 /* fq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC2C165B23AF000D43E4 /* fq.cpp */; };
-		2906CDB0165B23B0000D43E4 /* fq.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2D165B23AF000D43E4 /* fq.hpp */; };
-		2906CDB1165B23B0000D43E4 /* gcc_421_char_traits.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2E165B23AF000D43E4 /* gcc_421_char_traits.hpp */; };
-		2906CDB2165B23B0000D43E4 /* i_engine.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2F165B23AF000D43E4 /* i_engine.hpp */; };
-		2906CDB3165B23B0000D43E4 /* i_inout.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC30165B23AF000D43E4 /* i_inout.hpp */; };
-		2906CDB4165B23B0000D43E4 /* i_poll_events.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC31165B23AF000D43E4 /* i_poll_events.hpp */; };
+		2906CDB0165B23B0000D43E4 /* fq.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2D165B23AF000D43E4 /* fq.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDB1165B23B0000D43E4 /* gcc_421_char_traits.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2E165B23AF000D43E4 /* gcc_421_char_traits.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDB2165B23B0000D43E4 /* i_engine.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC2F165B23AF000D43E4 /* i_engine.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDB3165B23B0000D43E4 /* i_inout.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC30165B23AF000D43E4 /* i_inout.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDB4165B23B0000D43E4 /* i_poll_events.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC31165B23AF000D43E4 /* i_poll_events.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDB5165B23B0000D43E4 /* io_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC32165B23AF000D43E4 /* io_object.cpp */; };
-		2906CDB6165B23B0000D43E4 /* io_object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC33165B23AF000D43E4 /* io_object.hpp */; };
+		2906CDB6165B23B0000D43E4 /* io_object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC33165B23AF000D43E4 /* io_object.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDB7165B23B0000D43E4 /* io_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC34165B23AF000D43E4 /* io_thread.cpp */; };
-		2906CDB8165B23B0000D43E4 /* io_thread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC35165B23AF000D43E4 /* io_thread.hpp */; };
+		2906CDB8165B23B0000D43E4 /* io_thread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC35165B23AF000D43E4 /* io_thread.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDB9165B23B0000D43E4 /* ip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC36165B23AF000D43E4 /* ip.cpp */; };
-		2906CDBA165B23B0000D43E4 /* ip.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC37165B23AF000D43E4 /* ip.hpp */; };
+		2906CDBA165B23B0000D43E4 /* ip.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC37165B23AF000D43E4 /* ip.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDBB165B23B0000D43E4 /* kqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC38165B23AF000D43E4 /* kqueue.cpp */; };
-		2906CDBC165B23B0000D43E4 /* kqueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC39165B23AF000D43E4 /* kqueue.hpp */; };
+		2906CDBC165B23B0000D43E4 /* kqueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC39165B23AF000D43E4 /* kqueue.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDBD165B23B0000D43E4 /* lb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC3A165B23AF000D43E4 /* lb.cpp */; };
-		2906CDBE165B23B0000D43E4 /* lb.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC3B165B23AF000D43E4 /* lb.hpp */; };
+		2906CDBE165B23B0000D43E4 /* lb.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC3B165B23AF000D43E4 /* lb.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDBF165B23B0000D43E4 /* libzmq.pc in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC3C165B23AF000D43E4 /* libzmq.pc */; };
 		2906CDC0165B23B0000D43E4 /* libzmq.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC3D165B23AF000D43E4 /* libzmq.pc.in */; };
-		2906CDC1165B23B0000D43E4 /* likely.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC3E165B23AF000D43E4 /* likely.hpp */; };
+		2906CDC1165B23B0000D43E4 /* likely.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC3E165B23AF000D43E4 /* likely.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDC2165B23B0000D43E4 /* mailbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC3F165B23AF000D43E4 /* mailbox.cpp */; };
-		2906CDC3165B23B0000D43E4 /* mailbox.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC40165B23AF000D43E4 /* mailbox.hpp */; };
-		2906CDC7165B23B0000D43E4 /* msg_content.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC44165B23AF000D43E4 /* msg_content.hpp */; };
-		2906CDC8165B23B0000D43E4 /* mutex.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC45165B23AF000D43E4 /* mutex.hpp */; };
+		2906CDC3165B23B0000D43E4 /* mailbox.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC40165B23AF000D43E4 /* mailbox.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDC7165B23B0000D43E4 /* msg_content.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC44165B23AF000D43E4 /* msg_content.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDC8165B23B0000D43E4 /* mutex.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC45165B23AF000D43E4 /* mutex.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDC9165B23B0000D43E4 /* named_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC46165B23AF000D43E4 /* named_session.cpp */; };
-		2906CDCA165B23B0000D43E4 /* named_session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC47165B23AF000D43E4 /* named_session.hpp */; };
+		2906CDCA165B23B0000D43E4 /* named_session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC47165B23AF000D43E4 /* named_session.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDCB165B23B0000D43E4 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC48165B23AF000D43E4 /* object.cpp */; };
-		2906CDCC165B23B0000D43E4 /* object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC49165B23AF000D43E4 /* object.hpp */; };
+		2906CDCC165B23B0000D43E4 /* object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC49165B23AF000D43E4 /* object.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDCD165B23B0000D43E4 /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC4A165B23AF000D43E4 /* options.cpp */; };
-		2906CDCE165B23B0000D43E4 /* options.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC4B165B23AF000D43E4 /* options.hpp */; };
+		2906CDCE165B23B0000D43E4 /* options.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC4B165B23AF000D43E4 /* options.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDCF165B23B0000D43E4 /* own.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC4C165B23AF000D43E4 /* own.cpp */; };
-		2906CDD0165B23B0000D43E4 /* own.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC4D165B23AF000D43E4 /* own.hpp */; };
+		2906CDD0165B23B0000D43E4 /* own.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC4D165B23AF000D43E4 /* own.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDD1165B23B0000D43E4 /* pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC4E165B23AF000D43E4 /* pair.cpp */; };
-		2906CDD2165B23B0000D43E4 /* pair.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC4F165B23AF000D43E4 /* pair.hpp */; };
+		2906CDD2165B23B0000D43E4 /* pair.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC4F165B23AF000D43E4 /* pair.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDD3165B23B0000D43E4 /* pgm_receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC50165B23AF000D43E4 /* pgm_receiver.cpp */; };
-		2906CDD4165B23B0000D43E4 /* pgm_receiver.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC51165B23AF000D43E4 /* pgm_receiver.hpp */; };
+		2906CDD4165B23B0000D43E4 /* pgm_receiver.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC51165B23AF000D43E4 /* pgm_receiver.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDD5165B23B0000D43E4 /* pgm_sender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC52165B23AF000D43E4 /* pgm_sender.cpp */; };
-		2906CDD6165B23B0000D43E4 /* pgm_sender.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC53165B23AF000D43E4 /* pgm_sender.hpp */; };
+		2906CDD6165B23B0000D43E4 /* pgm_sender.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC53165B23AF000D43E4 /* pgm_sender.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDD7165B23B0000D43E4 /* pgm_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC54165B23AF000D43E4 /* pgm_socket.cpp */; };
-		2906CDD8165B23B0000D43E4 /* pgm_socket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC55165B23AF000D43E4 /* pgm_socket.hpp */; };
+		2906CDD8165B23B0000D43E4 /* pgm_socket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC55165B23AF000D43E4 /* pgm_socket.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDD9165B23B0000D43E4 /* pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC56165B23AF000D43E4 /* pipe.cpp */; };
-		2906CDDA165B23B0000D43E4 /* pipe.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC57165B23AF000D43E4 /* pipe.hpp */; };
-		2906CDDB165B23B0000D43E4 /* platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC58165B23AF000D43E4 /* platform.hpp */; };
+		2906CDDA165B23B0000D43E4 /* pipe.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC57165B23AF000D43E4 /* pipe.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDDB165B23B0000D43E4 /* platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC58165B23AF000D43E4 /* platform.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDDD165B23B0000D43E4 /* poll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC5A165B23AF000D43E4 /* poll.cpp */; };
-		2906CDDE165B23B0000D43E4 /* poll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC5B165B23AF000D43E4 /* poll.hpp */; };
-		2906CDDF165B23B0000D43E4 /* poller.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC5C165B23AF000D43E4 /* poller.hpp */; };
+		2906CDDE165B23B0000D43E4 /* poll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC5B165B23AF000D43E4 /* poll.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDDF165B23B0000D43E4 /* poller.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC5C165B23AF000D43E4 /* poller.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDE0165B23B0000D43E4 /* poller_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC5D165B23AF000D43E4 /* poller_base.cpp */; };
-		2906CDE1165B23B0000D43E4 /* poller_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC5E165B23AF000D43E4 /* poller_base.hpp */; };
+		2906CDE1165B23B0000D43E4 /* poller_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC5E165B23AF000D43E4 /* poller_base.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDE2165B23B0000D43E4 /* pub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC5F165B23AF000D43E4 /* pub.cpp */; };
-		2906CDE3165B23B0000D43E4 /* pub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC60165B23AF000D43E4 /* pub.hpp */; };
+		2906CDE3165B23B0000D43E4 /* pub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC60165B23AF000D43E4 /* pub.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDE4165B23B0000D43E4 /* pull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC61165B23AF000D43E4 /* pull.cpp */; };
-		2906CDE5165B23B0000D43E4 /* pull.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC62165B23AF000D43E4 /* pull.hpp */; };
+		2906CDE5165B23B0000D43E4 /* pull.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC62165B23AF000D43E4 /* pull.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDE6165B23B0000D43E4 /* push.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC63165B23AF000D43E4 /* push.cpp */; };
-		2906CDE7165B23B0000D43E4 /* push.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC64165B23AF000D43E4 /* push.hpp */; };
+		2906CDE7165B23B0000D43E4 /* push.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC64165B23AF000D43E4 /* push.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDE8165B23B0000D43E4 /* reaper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC65165B23AF000D43E4 /* reaper.cpp */; };
-		2906CDE9165B23B0000D43E4 /* reaper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC66165B23AF000D43E4 /* reaper.hpp */; };
+		2906CDE9165B23B0000D43E4 /* reaper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC66165B23AF000D43E4 /* reaper.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDEA165B23B0000D43E4 /* rep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC67165B23AF000D43E4 /* rep.cpp */; };
-		2906CDEB165B23B0000D43E4 /* rep.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC68165B23AF000D43E4 /* rep.hpp */; };
+		2906CDEB165B23B0000D43E4 /* rep.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC68165B23AF000D43E4 /* rep.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDEC165B23B0000D43E4 /* req.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC69165B23AF000D43E4 /* req.cpp */; };
-		2906CDED165B23B0000D43E4 /* req.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6A165B23AF000D43E4 /* req.hpp */; };
+		2906CDED165B23B0000D43E4 /* req.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6A165B23AF000D43E4 /* req.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDEE165B23B0000D43E4 /* select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC6B165B23AF000D43E4 /* select.cpp */; };
-		2906CDEF165B23B0000D43E4 /* select.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6C165B23AF000D43E4 /* select.hpp */; };
-		2906CDF0165B23B0000D43E4 /* semaphore.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6D165B23AF000D43E4 /* semaphore.hpp */; };
+		2906CDEF165B23B0000D43E4 /* select.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6C165B23AF000D43E4 /* select.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CDF0165B23B0000D43E4 /* semaphore.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6D165B23AF000D43E4 /* semaphore.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDF1165B23B0000D43E4 /* session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC6E165B23AF000D43E4 /* session.cpp */; };
-		2906CDF2165B23B0000D43E4 /* session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6F165B23AF000D43E4 /* session.hpp */; };
+		2906CDF2165B23B0000D43E4 /* session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC6F165B23AF000D43E4 /* session.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDF3165B23B0000D43E4 /* signaler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC70165B23AF000D43E4 /* signaler.cpp */; };
-		2906CDF4165B23B0000D43E4 /* signaler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC71165B23AF000D43E4 /* signaler.hpp */; };
+		2906CDF4165B23B0000D43E4 /* signaler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC71165B23AF000D43E4 /* signaler.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDF5165B23B0000D43E4 /* socket_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC72165B23AF000D43E4 /* socket_base.cpp */; };
-		2906CDF6165B23B0000D43E4 /* socket_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC73165B23AF000D43E4 /* socket_base.hpp */; };
+		2906CDF6165B23B0000D43E4 /* socket_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC73165B23AF000D43E4 /* socket_base.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDF7165B23B0000D43E4 /* stamp-h1 in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC74165B23AF000D43E4 /* stamp-h1 */; };
-		2906CDF8165B23B0000D43E4 /* stdint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC75165B23AF000D43E4 /* stdint.hpp */; };
+		2906CDF8165B23B0000D43E4 /* stdint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC75165B23AF000D43E4 /* stdint.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDF9165B23B0000D43E4 /* sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC76165B23AF000D43E4 /* sub.cpp */; };
-		2906CDFA165B23B0000D43E4 /* sub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC77165B23AF000D43E4 /* sub.hpp */; };
+		2906CDFA165B23B0000D43E4 /* sub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC77165B23AF000D43E4 /* sub.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDFB165B23B0000D43E4 /* swap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC78165B23AF000D43E4 /* swap.cpp */; };
-		2906CDFC165B23B0000D43E4 /* swap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC79165B23AF000D43E4 /* swap.hpp */; };
+		2906CDFC165B23B0000D43E4 /* swap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC79165B23AF000D43E4 /* swap.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDFD165B23B0000D43E4 /* tcp_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC7A165B23AF000D43E4 /* tcp_connecter.cpp */; };
-		2906CDFE165B23B0000D43E4 /* tcp_connecter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC7B165B23AF000D43E4 /* tcp_connecter.hpp */; };
+		2906CDFE165B23B0000D43E4 /* tcp_connecter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC7B165B23AF000D43E4 /* tcp_connecter.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CDFF165B23B0000D43E4 /* tcp_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC7C165B23AF000D43E4 /* tcp_listener.cpp */; };
-		2906CE00165B23B0000D43E4 /* tcp_listener.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC7D165B23AF000D43E4 /* tcp_listener.hpp */; };
+		2906CE00165B23B0000D43E4 /* tcp_listener.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC7D165B23AF000D43E4 /* tcp_listener.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE01165B23B0000D43E4 /* tcp_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC7E165B23AF000D43E4 /* tcp_socket.cpp */; };
-		2906CE02165B23B0000D43E4 /* tcp_socket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC7F165B23AF000D43E4 /* tcp_socket.hpp */; };
+		2906CE02165B23B0000D43E4 /* tcp_socket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC7F165B23AF000D43E4 /* tcp_socket.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE03165B23B0000D43E4 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC80165B23AF000D43E4 /* thread.cpp */; };
-		2906CE04165B23B0000D43E4 /* thread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC81165B23AF000D43E4 /* thread.hpp */; };
+		2906CE04165B23B0000D43E4 /* thread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC81165B23AF000D43E4 /* thread.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE05165B23B0000D43E4 /* transient_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC82165B23AF000D43E4 /* transient_session.cpp */; };
-		2906CE06165B23B0000D43E4 /* transient_session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC83165B23AF000D43E4 /* transient_session.hpp */; };
+		2906CE06165B23B0000D43E4 /* transient_session.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC83165B23AF000D43E4 /* transient_session.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE07165B23B0000D43E4 /* trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC84165B23AF000D43E4 /* trie.cpp */; };
-		2906CE08165B23B0000D43E4 /* trie.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC85165B23AF000D43E4 /* trie.hpp */; };
+		2906CE08165B23B0000D43E4 /* trie.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC85165B23AF000D43E4 /* trie.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE09165B23B0000D43E4 /* uuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC86165B23AF000D43E4 /* uuid.cpp */; };
-		2906CE0A165B23B0000D43E4 /* uuid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC87165B23AF000D43E4 /* uuid.hpp */; };
-		2906CE0B165B23B0000D43E4 /* windows.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC88165B23AF000D43E4 /* windows.hpp */; };
-		2906CE0C165B23B0000D43E4 /* wire.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC89165B23AF000D43E4 /* wire.hpp */; };
+		2906CE0A165B23B0000D43E4 /* uuid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC87165B23AF000D43E4 /* uuid.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CE0B165B23B0000D43E4 /* windows.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC88165B23AF000D43E4 /* windows.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CE0C165B23B0000D43E4 /* wire.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC89165B23AF000D43E4 /* wire.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE0D165B23B0000D43E4 /* xpub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC8A165B23AF000D43E4 /* xpub.cpp */; };
-		2906CE0E165B23B0000D43E4 /* xpub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC8B165B23AF000D43E4 /* xpub.hpp */; };
+		2906CE0E165B23B0000D43E4 /* xpub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC8B165B23AF000D43E4 /* xpub.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE0F165B23B0000D43E4 /* xrep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC8C165B23AF000D43E4 /* xrep.cpp */; };
-		2906CE10165B23B0000D43E4 /* xrep.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC8D165B23AF000D43E4 /* xrep.hpp */; };
+		2906CE10165B23B0000D43E4 /* xrep.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC8D165B23AF000D43E4 /* xrep.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE11165B23B0000D43E4 /* xreq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC8E165B23AF000D43E4 /* xreq.cpp */; };
-		2906CE12165B23B0000D43E4 /* xreq.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC8F165B23AF000D43E4 /* xreq.hpp */; };
+		2906CE12165B23B0000D43E4 /* xreq.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC8F165B23AF000D43E4 /* xreq.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE13165B23B0000D43E4 /* xsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC90165B23AF000D43E4 /* xsub.cpp */; };
-		2906CE14165B23B0000D43E4 /* xsub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC91165B23AF000D43E4 /* xsub.hpp */; };
-		2906CE15165B23B0000D43E4 /* ypipe.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC92165B23AF000D43E4 /* ypipe.hpp */; };
-		2906CE16165B23B0000D43E4 /* yqueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC93165B23AF000D43E4 /* yqueue.hpp */; };
+		2906CE14165B23B0000D43E4 /* xsub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC91165B23AF000D43E4 /* xsub.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CE15165B23B0000D43E4 /* ypipe.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC92165B23AF000D43E4 /* ypipe.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		2906CE16165B23B0000D43E4 /* yqueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC93165B23AF000D43E4 /* yqueue.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE17165B23B0000D43E4 /* zmq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC94165B23AF000D43E4 /* zmq.cpp */; };
 		2906CE18165B23B0000D43E4 /* zmq_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC95165B23AF000D43E4 /* zmq_connecter.cpp */; };
-		2906CE19165B23B0000D43E4 /* zmq_connecter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC96165B23AF000D43E4 /* zmq_connecter.hpp */; };
+		2906CE19165B23B0000D43E4 /* zmq_connecter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC96165B23AF000D43E4 /* zmq_connecter.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE1A165B23B0000D43E4 /* zmq_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC97165B23AF000D43E4 /* zmq_engine.cpp */; };
-		2906CE1B165B23B0000D43E4 /* zmq_engine.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC98165B23AF000D43E4 /* zmq_engine.hpp */; };
+		2906CE1B165B23B0000D43E4 /* zmq_engine.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC98165B23AF000D43E4 /* zmq_engine.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE1C165B23B0000D43E4 /* zmq_init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC99165B23AF000D43E4 /* zmq_init.cpp */; };
-		2906CE1D165B23B0000D43E4 /* zmq_init.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC9A165B23AF000D43E4 /* zmq_init.hpp */; };
+		2906CE1D165B23B0000D43E4 /* zmq_init.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC9A165B23AF000D43E4 /* zmq_init.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE1E165B23B0000D43E4 /* zmq_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906CC9B165B23AF000D43E4 /* zmq_listener.cpp */; };
-		2906CE1F165B23B0000D43E4 /* zmq_listener.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC9C165B23AF000D43E4 /* zmq_listener.hpp */; };
+		2906CE1F165B23B0000D43E4 /* zmq_listener.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CC9C165B23AF000D43E4 /* zmq_listener.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE20165B23B0000D43E4 /* test_hwm.Po in Resources */ = {isa = PBXBuildFile; fileRef = 2906CC9F165B23AF000D43E4 /* test_hwm.Po */; };
 		2906CE21165B23B0000D43E4 /* test_pair_inproc.Po in Resources */ = {isa = PBXBuildFile; fileRef = 2906CCA0165B23AF000D43E4 /* test_pair_inproc.Po */; };
 		2906CE22165B23B0000D43E4 /* test_pair_ipc.Po in Resources */ = {isa = PBXBuildFile; fileRef = 2906CCA1165B23AF000D43E4 /* test_pair_ipc.Po */; };
@@ -350,12 +350,12 @@
 		2906CE26165B23B0000D43E4 /* test_reqrep_tcp.Po in Resources */ = {isa = PBXBuildFile; fileRef = 2906CCA5165B23AF000D43E4 /* test_reqrep_tcp.Po */; };
 		2906CE27165B23B0000D43E4 /* test_shutdown_stress.Po in Resources */ = {isa = PBXBuildFile; fileRef = 2906CCA6165B23AF000D43E4 /* test_shutdown_stress.Po */; };
 		2906CE28165B23B0000D43E4 /* test_timeo.Po in Resources */ = {isa = PBXBuildFile; fileRef = 2906CCA7165B23AF000D43E4 /* test_timeo.Po */; };
-		2906CE35165B23B0000D43E4 /* testutil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CCB4165B23AF000D43E4 /* testutil.hpp */; };
+		2906CE35165B23B0000D43E4 /* testutil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2906CCB4165B23AF000D43E4 /* testutil.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		2906CE36165B23B0000D43E4 /* version.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2906CCB5165B23AF000D43E4 /* version.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2906C7D6165B1F7E000D43E4 /* objc-zmq-frame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "objc-zmq-frame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2906C7D6165B1F7E000D43E4 /* zmq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zmq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2906C7D9165B1F7E000D43E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2906C7DC165B1F7E000D43E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2906C7DD165B1F7E000D43E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -780,7 +780,7 @@
 		2906C7D7165B1F7E000D43E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2906C7D6165B1F7E000D43E4 /* objc-zmq-frame.framework */,
+				2906C7D6165B1F7E000D43E4 /* zmq.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1403,8 +1403,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2906C7FD165B2001000D43E4 /* ZMQContext.h in Headers */,
 				2906C7FF165B2001000D43E4 /* ZMQObjC.h in Headers */,
+				2906C7FD165B2001000D43E4 /* ZMQContext.h in Headers */,
 				2906C800165B2001000D43E4 /* ZMQSocket.h in Headers */,
 				2906CCC6165B23AF000D43E4 /* platform.hpp in Headers */,
 				2906CD3F165B23B0000D43E4 /* xmlParser.hpp in Headers */,
@@ -1495,9 +1495,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2906C7D5165B1F7E000D43E4 /* objc-zmq-frame */ = {
+		2906C7D5165B1F7E000D43E4 /* zmq */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2906C7EB165B1F7E000D43E4 /* Build configuration list for PBXNativeTarget "objc-zmq-frame" */;
+			buildConfigurationList = 2906C7EB165B1F7E000D43E4 /* Build configuration list for PBXNativeTarget "zmq" */;
 			buildPhases = (
 				2906C7D1165B1F7E000D43E4 /* Sources */,
 				2906C7D2165B1F7E000D43E4 /* Frameworks */,
@@ -1508,9 +1508,9 @@
 			);
 			dependencies = (
 			);
-			name = "objc-zmq-frame";
+			name = zmq;
 			productName = "objc-zmq-frame";
-			productReference = 2906C7D6165B1F7E000D43E4 /* objc-zmq-frame.framework */;
+			productReference = 2906C7D6165B1F7E000D43E4 /* zmq.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1534,7 +1534,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2906C7D5165B1F7E000D43E4 /* objc-zmq-frame */,
+				2906C7D5165B1F7E000D43E4 /* zmq */,
 			);
 		};
 /* End PBXProject section */
@@ -1879,13 +1879,17 @@
 		2906C7EC165B1F7E000D43E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "objc-zmq-frame/objc-zmq-frame-Prefix.pch";
 				INFOPLIST_FILE = "objc-zmq-frame/objc-zmq-frame-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "@loader_path/../Frameworks/$(EXECUTABLE_PATH)";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -1893,13 +1897,17 @@
 		2906C7ED165B1F7E000D43E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "objc-zmq-frame/objc-zmq-frame-Prefix.pch";
 				INFOPLIST_FILE = "objc-zmq-frame/objc-zmq-frame-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "@loader_path/../Frameworks/$(EXECUTABLE_PATH)";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -1916,13 +1924,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2906C7EB165B1F7E000D43E4 /* Build configuration list for PBXNativeTarget "objc-zmq-frame" */ = {
+		2906C7EB165B1F7E000D43E4 /* Build configuration list for PBXNativeTarget "zmq" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2906C7EC165B1F7E000D43E4 /* Debug */,
 				2906C7ED165B1F7E000D43E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
